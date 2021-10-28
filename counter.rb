@@ -2,7 +2,7 @@
 # Remember that HTTP is stateless, which means that each request is handled separately by the server.
 
 # We basically maintain the code from the roll_dice program
-# to make the program work even when no parameters are passed we update the helper method so split is called either on a parameter or an empty string if no param is passed (line 12)
+# to make the program work even when no parameters are passed, we update the helper method so split is called either on a parameter or an empty string if no param is passed (line 12)
 require 'socket'
 
 def parse_request(request_line)

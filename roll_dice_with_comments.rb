@@ -67,6 +67,6 @@ loop do # main Ruby code in the application
 
   client.puts '</body>'
   client.puts '</html>'
-  
+
   client.close
 end
